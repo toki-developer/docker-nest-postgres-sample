@@ -11,10 +11,12 @@ export class ItemService {
     private readonly itemRepository: Repository<Item>,
   ) {}
 
+  // 全データ検索
   async findAll(): Promise<Item[]> {
     return await this.itemRepository.find();
   }
 
+  //データ追加
   async create(item: CreateItemDTO): Promise<InsertResult> {
     return await this.itemRepository.insert(item);
   }

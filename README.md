@@ -37,3 +37,7 @@ yarn start dev
 ```
 curl http://localhost:3000/item -X POST -d "todo=test"
 ```
+
+### キータ
+
+https://qiita.com/toki_k/items/14cb5df53fce12e83b4b
