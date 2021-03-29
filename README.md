@@ -1,7 +1,7 @@
 ### してる事
 
-Docker で postgres を起動
-Nest.js/typeorm/postgres を接続
+- Docker で postgres を起動
+- Nest.js/typeorm/postgres を接続
 
 ### postgres 起動
 
