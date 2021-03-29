@@ -13,14 +13,16 @@ docker-compose up -d
 # 依存パッケージのインストール
 yarn
 
+# マイグレーションファイルの実行　(DB作成)
+yarn typeorm migration:run
+
 # 開発環境の起動
 yarn start dev
 
-# マイグレーションファイルの実行　(DB作成)
-yarn typeorm migration:run
+
 ```
 
-###API
+### API
 
 - 全データ検索
   http://localhost:3000/item
