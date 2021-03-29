@@ -5,6 +5,8 @@
     "username": "root",
     "password": "password",
     "database": "test_db",
-    "entities": ["src/entities/**/*.ts"],
+    "entities": ["dist/entities/**/*.entity.js"],
+    "migrations": ["dist/migrations/**/*.js"],
+    "logging": true,
     "synchronize": false
 }
